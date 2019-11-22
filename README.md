@@ -21,6 +21,8 @@ My First SpringCloud Demo
    Eureka Client 普通方式的消费者，Ribbon+RestTemplate
    + microservicecloud-consumer-dept-80   
    Eureka Client Feign方式的消费者，Feign
+   + microservicecloud-zuul-gateway-9527  
+   Zuul 代理路由服务
    
         其中，microservicecloud-7001，microservicecloud-7002，microservicecloud-7003提供集群服务，保证高可靠性
     microservicecloud-provider-dept-8001，microservicecloud-provider-dept-8002，microservicecloud-provider-dept-8003组成
