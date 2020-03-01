@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @version V1.0
  */
 @RestController
-public class ConfigClientRest {
+public class ConfigClientTest {
 
     // 从配置文件中提取指定值
     @Value("${spring.application.name}")
